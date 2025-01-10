@@ -1,0 +1,47 @@
+# Libraries to be added to the node/entity edit form when using Gutenberg editor.
+libraries-edit:
+  - deohs_gutenberg_blocks/blocks
+# Libraries to be added to the node/entity view.
+libraries-view:
+  - deohs_gutenberg_blocks/blocks
+# Blocks which can be rendered server side using Twig templates.
+dynamic-blocks:
+  deohs_gutenberg_blocks/dynamic-card: {}
+
+# Add custom blocks to the following section.
+# The blocks defined here can be enabled or disabled for each content type.
+custom-blocks:
+  categories:
+    - reference: deohs-gutenberg-blocks # The category where the block will be added.
+      name: 'DEOHS Gutenberg Blocks'
+      blocks:
+        - id: deohs-gutenberg-block/deohs-card
+          name: DEOHS Card
+        - id: deohs-gutenberg-block/deohs-button
+          name: DEOHS Button
+        - id: deohs-gutenberg-block/deohs-biobox
+          name: DEOHS BioBox
+        - id: deohs-gutenberg-block/deohs-text
+          name: DEOHS Text
+        - id: deohs-gutenberg-block/deohs-heading
+          name: DEOHS Heading
+        - id: deohs-gutenberg-block/deohs-profile-card
+          name: DEOHS Profile
+        - id: deohs-gutenberg-block/deohs-card-vertical
+          name: Vertical Card
+        - id: deohs-gutenberg-block/deohs-card-square-toggle
+          name: DEOHS Square Card with Toggle
+        - id: deohs-gutenberg-block/deohs-card-square
+          name: DEOHS Square Card
+        - id: deohs-gutenberg-block/deohs-grid-card-example
+          name: Grid Card Example
+        - id: deohs-gutenberg-block/deohs-grid-cards-profile
+          name: Grid Cards (Profile)
+        - id: deohs-gutenberg-block/deohs-fast-facts
+          name: Fast Facts
+        - id: deohs-gutenberg-block/deohs-full-width-container
+          name: DEOHS Full Width Container
+        - id: deohs-gutenberg-block/deohs-pull-quote
+          name: DEOHS Pull Quote
+        - id: deohs-gutenberg-block/deohs-image-backed-card
+          name: Image-backed Card

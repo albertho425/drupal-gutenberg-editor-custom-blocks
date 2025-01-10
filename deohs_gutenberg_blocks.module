@@ -1,0 +1,6 @@
+<?php
+
+
+function deohs_gutenberg_blocks_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'deohs_gutenberg_blocks/editor';
+}

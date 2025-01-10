@@ -1,6 +1,14 @@
+# Introduction
+
 This is a custom Drupal 10 Gutenberg editor custom block for editing text. It's one of several blocks that we would like to enable for content creators.
 
-It allows user to pick text color, font size, and gives character count in the side bar.
-When pressing enter key, it gives a new instance of itself. Ideally, it should mimic the core/paragraph block and allow user to select from all blocks. Also when I paste in content, it works normally if it's just text. If there is a heading and text, it will default to the core/heading and core/paragraph block.
+## Current features
+- allows user to select text color from a specific list of colors
+- allow user to select font-size and get character count in the side panel
+
+## To Do
+- When pressing enter, mimic core/paragraph and allow user to select any block instead of adding a new instance of itself
+- When pasting in content that contains heading and text, it should show up as custom/heading and custom/paragraph instead of core/heading and core/paragraph
+
 
 https://www.youtube.com/watch?v=_1Oo_SrwySg

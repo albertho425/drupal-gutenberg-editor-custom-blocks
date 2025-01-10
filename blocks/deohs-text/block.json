@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "deohs-gutenberg-blocks/deohs-text",
+  "title": "DEOHS Text",
+  "description": "A block that lets you type text",
+  "textdomain": "deohs-gutenberg-blocks",
+  "category": "deohs-gutenberg-blocks",
+  "icon": "paragraph",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "size": {
+      "type": "string",
+      "default": "fs-6",
+      "enum": ["fs-1", "fs-2", "fs-3", "fs-4", "fs-5", "fs-6"]
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#000000"
+    }
+  },
+  "supports": {
+    "align": false,
+    "anchor": false,
+    "multiline": true,
+    "multiple": true,
+    "color": {
+      "text": false,
+      "background": false,
+      "custom": false
+
+    }
+  }
+}

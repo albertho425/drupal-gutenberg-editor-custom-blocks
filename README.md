@@ -9,6 +9,10 @@ This is a custom Drupal 10 Gutenberg editor custom block for editing text. It's 
 ## To Do
 - When pressing enter, mimic core/paragraph and allow user to select any block instead of adding a new instance of itself
 - When pasting in content that contains heading and text, it should show up as custom/heading and custom/paragraph instead of core/heading and core/paragraph
+- Once custom/heading and custom/paragraph are working, disable core/heading and core/paragraph
+
+## Question
+- Is it easier to extend core/paragraph and core/heading to acheive this?
 
 ## Screen recording 
 

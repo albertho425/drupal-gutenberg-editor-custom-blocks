@@ -14,6 +14,8 @@ This is a custom Drupal 10 Gutenberg editor custom block for editing text. It's 
 ## Question
 - Is it easier to extend core/paragraph and core/heading to acheive this?
 
-## Screen recording 
+## Screen recordings
 
 https://www.youtube.com/watch?v=_1Oo_SrwySg
+
+https://www.youtube.com/watch?v=kUnwx_0DaOQ
